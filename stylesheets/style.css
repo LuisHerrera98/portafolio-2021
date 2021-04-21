@@ -317,3 +317,27 @@ section{
 .jquery{
     margin-top: 0 !important;
 }
+@media(min-width:740px){
+    .secciones{
+        width: 50%;
+    }
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+    section{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .principal{
+        width:50%;
+    }
+    .informacion{
+        width:50%;
+    }
+    .perfil{
+        height:300px;
+        width:280px;
+        margin-top: 80px;
+    }
+}
