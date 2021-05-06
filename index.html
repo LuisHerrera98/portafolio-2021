@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> 
-    <title>Scroll</title>
+    <title>Developer</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
 
@@ -17,11 +17,29 @@
         <div class="menu desaparecer">
             <i class="fas fa-times botonDesaparecer cruz"></i>
             <ul class="nav">
-                <li><a href="">Sobre mi</a></li>
-                <li><a href="">Conocimientos</a></li>
-                <li><a href="">Portafolio</a></li>
-                <li><a href="">Educación</a></li>
-                <li><a href="">Experiencia laboral</a></li>
+                <a class="botonDesaparecer1" style="text-decoration: none;" href="#seccion-1">
+                    <li   class="option1">Sobre mi</li>
+                </a>
+
+                <a class="botonDesaparecer2" style="text-decoration: none;" href="#seccion-2">
+                    <li class="option2">Conocimientos</li>
+                </a>
+
+                <a class="botonDesaparecer3" style="text-decoration: none;" href="#seccion-3">
+                    <li class="option3">Educación</li>
+                </a>
+
+                <a class="botonDesaparecer4" style="text-decoration: none;" href="#seccion-4">
+                    <li class="option4">Proyectos</li>
+                </a>
+
+                <a class="botonDesaparecer5" style="text-decoration: none;" href="#seccion-5">
+                    <li class="option5">Experiencia</li>
+                </a>
+                <a class="botonDesaparecer6" style="text-decoration: none;" href="#seccion-6">
+                    <li class="option6">Contacto</li>
+                </a>
+
             </ul>
         </div>
     <header id="header">
@@ -36,7 +54,7 @@
     <section>
         <div class="principal">
             <div class="perfil">
-                <img src="foto.jpg" alt="">
+                <img src="hacker.jpg" alt="">
             </div>
         </div>
         <div class="informacion">
@@ -46,91 +64,330 @@
             <h1 class="nombre">
                 Soy Luis Herrera
             </h1>
-            <h2 class="titulo desarrollador">Desarrollador<br><span class="typed stack"></span></h2>
+            <h2 class="titulo desarrollador">Desarrollador<br><span id="seccion-1" class="typed stack"></span></h2>
         </div>
     </section>
+    
     <main>
-        <div class="secciones">
-            <div class="sobreMi">
-                <h2 class="sobre caja" style="height: 50px;">Sobre mi</h2>
-            </div>
-            <div class="contenido">
+        <div class="secciones seccion1">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <div class="contenido" >
+
+                <div class="sobreMi">
+                    <h2 class="sobre caja" style="height: 50px;">Sobre mi</h2>
+                </div>
                 <h3 class="titulo-caja">Quien Soy</h3>
                 <h2 class="info">Soy un apacionado de la tecnología, desarrollo web y móvil</h2>
                 <p class="p-info">
                     Me gusta aprender nuevas tecnologías, solucionar problemas y adaptarme a nuevos conocimientos o lenguajes
                 </p>
-                <a class="button--cta" href="./cv-luisherrera.pdf" download="cv-luisherrera" target="_blank" rel="noopener noreferrer" data-sr-id="14" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.55s;">
+                <a id="seccion-2" class="button--cta" href="./cv-luisherrera.pdf" download="cv-luisherrera" target="_blank" rel="noopener noreferrer" data-sr-id="14" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.55s;">
                     <i class="fas fa-file-download" aria-hidden="true"></i> Download CV
                   </a>
-        </div>
+                  <h2 class="sobreA caja" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 10px; margin-top: 10px; color:#f5f5f5">Educación</h2>
+                  <p class="p-info" style=" margin: 0; border-radius: 10px; text-align: left;">
+                            -Digital House : Desarrollo full-stack <br>
+                            -UNLP Informatica : Licenciatura en sistemas 2do Año<br>
+                            -Tecnica n°6 Albert Thomas
+                        </p>
 
-        <div class="secciones">
-                <h2 class="titulo-caja" style="padding-left: 20px;">Conocimientos</h2>
-                  <div class="conocimientos cajitas" style="padding-bottom:  40px;">
-                    <div class="caja skills">
-                        <i class="fab fa-html5" aria-hidden="true"></i>
-                        <div class="nombres">HTML</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-css3-alt" aria-hidden="true"></i>
-                        <div class="nombres">CSS</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-js" aria-hidden="true"></i>
-                        <div class="nombres">JavaScript</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-sass" aria-hidden="true"></i>
-                        <div class="nombres">SASS</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-bootstrap" aria-hidden="true"></i>
-                        <div class="nombres">Bootstrap</div>
-                    </div>
-                    <div class="caja skills">
-                        <img style="margin-top: 3px;background-color: #8e8e8e;border-radius: 40px;" src="https://img.icons8.com/ios/50/000000/jquery.png"/>
-                        <div class="nombres jquery">jQuery</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-react" aria-hidden="true">
-                            <div class="nombres">React JS</div>
-
-                        </i></div>
-                    <div class="caja skills">
-                        <i class="fab fa-git-alt" aria-hidden="true"></i>
-                        <div class="nombres">GIT</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-node" aria-hidden="true"></i>
-                        <div class="nombres">Node JS</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-node-js"></i>
-                        <div class="nombres">Express JS</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fab fa-php"></i>
-                        <div class="nombres">PHP</div>
-                    </div>
-                    <div class="caja skills">
-                        <img style="margin-top: 3px;background-color: #8e8e8e;border-radius: 40px;" src="https://img.icons8.com/ios/50/000000/api-settings.png"/>
-                        <div class="nombres">RestAPI</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fas fa-database" aria-hidden="true"></i>
-                        <div class="nombres">MySQL</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fas fa-database" aria-hidden="true"></i>
-                        <div class="nombres">mariaDB</div>
-                    </div>
-                    <div class="caja skills">
-                        <i class="fas fa-database" aria-hidden="true"></i>
-                        <div class="nombres">mongoDB</div>
+            </div>
+            <div class="secciones seccion2">
+                <h2 class="sobreA caja" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 20px; margin-top: 10px">Conocimientos</h2>
+                      <div class="conocimientos cajitas" style="padding-bottom:  10px;">
+                        <div class="caja skills">
+                            <i class="fab fa-html5" aria-hidden="true"></i>
+                            <div class="nombres">HTML</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                            <div class="nombres">CSS</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-js" aria-hidden="true"></i>
+                            <div class="nombres">JavaScript</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-sass" aria-hidden="true"></i>
+                            <div class="nombres">SASS</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-bootstrap" aria-hidden="true"></i>
+                            <div class="nombres">Bootstrap</div>
+                        </div>
+                        <div class="caja skills">
+                            <img style="margin-top: 3px;background-color: #8e8e8e;border-radius: 40px;" src="https://img.icons8.com/ios/50/000000/jquery.png"/>
+                            <div class="nombres jquery">jQuery</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-react" aria-hidden="true">
+                                <div class="nombres">React JS</div>
+    
+                            </i></div>
+                        <div class="caja skills">
+                            <i class="fab fa-git-alt" aria-hidden="true"></i>
+                            <div class="nombres">GIT</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-node" aria-hidden="true"></i>
+                            <div class="nombres">Node JS</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-node-js"></i>
+                            <div class="nombres">Express JS</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-php"></i>
+                            <div class="nombres">PHP</div>
+                        </div>
+                        <div class="caja skills">
+                            <img style="margin-top: 3px;background-color: #8e8e8e;border-radius: 40px;" src="https://img.icons8.com/ios/50/000000/api-settings.png"/>
+                            <div class="nombres">RestAPI</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <div class="nombres">MySQL</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <div class="nombres">mariaDB</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                            <div class="nombres">GitHub</div>
+                        </div>
+                        
+                       
+                        
+                        
+    
                     </div>
                 </div>
+        </div>
+            
+
+        
+            <div class="secciones ">
+                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                    <div class="conocimientos cajitas seccion4" style="padding-bottom:  10px;">
+                        <h2 class="titulo-caja" style="text-align: center;color:#f5f5f5">Conocimientos Básicos</h2>
+                        <div class="caja skills">
+                            <img style="width: 54px; margin-top: 3px;background-color: #fffefe;border-radius: 40px; opacity:0.4;" src="https://img.icons8.com/windows/64/000000/ruby-programming-language.png"/>
+                            <div class="nombres" style="margin-top: 0px;">Ruby</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-angular" aria-hidden="true"></i>
+                            <div class="nombres">Angular</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-laravel" aria-hidden="true"></i>
+                            <div class="nombres">Laravel</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <div class="nombres">mongoDB</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-product-hunt" aria-hidden="true"></i>
+                            <div class="nombres">Pascal</div>
+                        </div>
+                        <div class="caja skills">
+                            <i class="fab fa-android" aria-hidden="true"></i>
+                            <div class="nombres">Kotlin</div>
+                        </div>
+                    </div>
+                    <div class="seccion5">
+                        <h2 class="titulo-caja titulo-ingles" style="padding-bottom: 5px; text-align: center; padding-bottom: 18px; padding-top: 10px;color:#f5f5f5;">Inglés</h2>
+                        <div class="caja" style=" background-color: #191919;display: flex; flex-direction: column; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                            
+                            <div style="height: auto; width: 100%; border-radius: 10px; margin-top: 0;">
+                                <p class="p-info" style=" margin: 0; border-radius: 10px; text-align: left;
+                                margin-left: 10px;">
+                                    -Nivel de lectura/escritura : Intermedio <br>
+                                    -Nivel de comucación : Básico
+                                </p>
+                            </div>
+                        </div>
+                        <h2 class="titulo-caja" style="padding-bottom: 5px; text-align: center; padding-bottom: 18px; padding-top: 1px; color:#f5f5f5">Patrones y Metodologias</h2>
+                        <div class="caja" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                            
+                            <div style="height: auto; width: 100%; border-radius: 10px; margin-top: 0;">
+                                <p class="p-info" style=" margin: 0; border-radius: 10px; text-align: left;
+                                margin-left: 10px;">
+                                    -Metodologias Agiles : Scrum <br>
+                                    -Patron de arquitectura de software MVC, Modelo Vista Controlador
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <div class="sistemas-operativos">
+                    <h2 class="titulo-caja" style="text-align: center; padding-bottom: 18px; padding-top: 0;color:#f5f5f5">Sistemas Operativos</h2>
+                    <div class="caja" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                    
+                        <div style="position: relative; height: auto; width: 100%; border-radius: 10px; margin-top: 0;">
+                            <p class="p-info" style=" margin: 0; border-radius:10px; text-align: left;margin-left: 10px;">
+                            -Instalacion y uso de linux, puedo adaptarme a trabajar en linux no soy experto pero se los comandos basicos y instalar los programas necesarios para programar
+                            </p>
+                            <p id="seccion-3" style="position: absolute;top:90px;"></p>
+                        </div>
+                    </div>
+                    <h2 id="seccion-6" class="sobreA caja" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 10px; margin-top: 25px; color:#f5f5f5">Contacto</h2>
+                    <div class="caja" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                        
+                        <div class="contactos-icons" style="display:flex;justify-content:center;position:relative;height: auto; width: 100%; border-radius: 10px; margin-top: 0;  height: 60px; align-items: center;">
+                            <a class="mailMostrar"><i class="fas fa-envelope"></i></a>
+                            <a href="https://wa.link/q6kawh"><i class="fab fa-whatsapp"></i></a>
+                            <a href="tel:+542216497631"><i class="fas fa-phone-square-alt"></i></a>
+                            <a href="https://github.com/LuisHerrera98"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/luis-herrera-70aba5198/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    
+                    </div>
+
+
+
+                </div>
+
+                <div class="expericiaOcultar" style="width: 46%;display: none;">
+                    <h2 class="sobreA caja experienciaCompu" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 10px; margin-top: 25px; color:#f5f5f5">Experiencia</h2>
+                    <div class="caja" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                    
+                    
+                        <div style="position:relative;height: auto; width: 100%; border-radius: 10px; margin-top: 0;">
+                            <p class="p-info" style=" margin: 0; border-radius: 10px; text-align: left;
+                            margin-left: 10px;">
+                                -Doy clases particulares a los que recien estan empezando.<br>
+                                -Soy free lance, creo sitios web , Ecommerce's , arreglo diseños , ayudo a otros programadores a terminar algun proyecto estancado.<br>
+                                -Actualmente trato de volcar las ideas y necesidades de las personas en una solucion y programarlo a medida.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+                
+                
+                <h2 class="sobreA caja ocultar" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 10px; margin-top: 10px; color:#f5f5f5">Educación</h2>
+                <div class="caja ocultar" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                    
+                    <div class="ocultar" style="position:relative;height: auto; width: 100%; border-radius: 10px; margin-top: 0;">
+                        <p class="p-info" style=" margin: 0; border-radius: 10px; text-align: left;
+                        margin-left: 10px;">
+                            -Digital House : Desarrollo full-stack <br>
+                            -UNLP Informatica : Licenciatura en sistemas , cursando el 2° Año <br>
+                            -Tecnica n°6 Albert Thomas
+                        </p>
+                        <p id="seccion-4" style="position: absolute; top:46px;"></p>
+                    </div>
+                </div>
+                
+                
+                
+                <h2 class="sobreA caja" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 10px; margin-top: 10px; color:#f5f5f5">Proyectos</h2>
+        
+                
+                    <div class="caja" style="margin-bottom:20px;opacity: 0.7;height: auto; width: 90%; position: relative; margin-top:18px; margin-left: 5%;border: solid 1px white; border-radius: 0px;">
+                        
+                        <div class="capa-imagen capa-imagen1 caja" style="border:none; border-radius:0px;">
+                            <h3 style="margin:0; color:white;font-family: Poppins,sans-serif;">Ecommerce Matilda</h3>
+                            <p class ="caja descripcionProyecto">Ecommerce hecho a medida para un cliente del centro de la plata</p>
+                            <a class="caja" href="https://matilda-md.site/" target="_blank">Visitar el Sitio <i class="fas fa-external-link-square-alt"></i></a>
+                        </div>
+                        <img class="primerProyecto" style="width: 100%;" src="matilda.jpg" alt="">
+                    </div>
+
+                    <div class="caja" style="margin-bottom:20px;opacity: 0.7;height: auto; width: 90%; position: relative; margin-top: 25px; margin-left: 5%; border: solid 1px white; border-radius: 0px;">
+                        
+                        <div class="capa-imagen capa-imagen4 caja" style="border:none;border-radius:0px;">
+                            <h3 style="margin:0; color:white;font-family: Poppins,sans-serif;">Arreglo de Diseño</h3>
+                            <p class ="caja descripcionProyecto">Modificaciones del diseño a pedido del cliente, solo diseño</p>
+                            <a class="caja" href="https://www.tiendacanela.com.ar/" target="_blank">Visitar el Sitio<i class="fas fa-external-link-square-alt"></i></a>
+                        </div>
+                        <img class="primerProyecto4" style="width: 100%;" src="canela.jpg" alt="">
+                    </div>
+
+                    <div class="caja" style="margin-bottom:20px;opacity: 0.7;height: auto; width: 90%; position: relative;; margin-top: 25px; margin-left: 5%; border: solid 1px white; border-radius: 0px;">
+                        
+                        <div class="capa-imagen capa-imagen3 caja" style="border:none;border-radius:0px;">
+                            <h3 style="margin:0; color:white;font-family: Poppins,sans-serif;">Gestor de Stock</h3>
+                            <p class ="caja descripcionProyecto">Control de stock basado en google drive con funciones nuevas - vista solo para movil</p>
+                            <a class="caja" href="https://nachostore.site/" target="_blank">Visitar el Sitio <i class="fas fa-external-link-square-alt"></i></a>
+                        </div>
+                        <img class="primerProyecto3" style="width: 100%;" src="stock.jpg" alt="">
+                    </div>
+
+                    <div class="caja" style="margin-bottom:20px;opacity: 0.7;height: auto; width: 90%; position: relative; margin-top:25px; margin-left: 5%; border: solid 1px white; border-radius: 0px;">
+                        
+                        <div class="capa-imagen capa-imagen2 caja" style="border:none;border-radius:0px;">
+                            <h3 style="margin:0; color:white;font-family: Poppins,sans-serif;">Ecommerce NachoStore</h3>
+                            <p class ="caja descripcionProyecto">Ecommerce hecho a medida para un cliente del centro de la plata , en proceso</p>
+                            <a class="caja" href="https://nacho-store.com/" target="_blank">Visitar el Sitio <i class="fas fa-external-link-square-alt"></i></a>
+                        </div>
+                        <img class="primerProyecto2" style="width: 100%;" src="nachostore.jpg" alt="">
+                        <div id="seccion-5">
+
+                        </div>
+                    </div>
+
+                    <div href="#seccion-5" style="width: 100%; display: flex; justify-content: center;">
+                        <a class="button--cta" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.55s; height: 15px; line-height: normal; margin: 0;">
+                            Ver más en github
+                         </a>
+                    </div>
+                    
+                    <h2 class="sobreA caja" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 10px; margin-top: 25px; color:#f5f5f5">Experiencia</h2>
+                    <div class="caja" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                        
+                        
+                        <div style="position:relative;height: auto; width: 100%; border-radius: 10px; margin-top: 0;">
+                            <p class="p-info" style=" margin: 0; border-radius: 10px; text-align: left;
+                            margin-left: 10px;">
+                                -Doy clases particulares a los que recien estan empezando.<br>
+                                -Soy free lance, creo sitios web , Ecommerce's , arreglo diseños , ayudo a otros programadores a terminar algun proyecto estancado.<br>
+                                -Actualmente trato de volcar las ideas y necesidades de las personas en una solucion y programarlo a medida.
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="seccion-6" class="sobreA caja" style="height: 50px; text-align: center; margin: 0 auto; margin-bottom: 10px; margin-top: 25px; color:#f5f5f5">Contacto</h2>
+                    <div class="caja" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                        
+                        <div class="contactos-icons" style="display:flex;justify-content:center;position:relative;height: auto; width: 100%; border-radius: 10px; margin-top: 0;  height: 60px; align-items: center;">
+                            <a class="mailMostrar"><i class="fas fa-envelope"></i></a>
+                            <a href="https://wa.link/q6kawh"><i class="fab fa-whatsapp"></i></a>
+                            <a href="tel:+542216497631"><i class="fas fa-phone-square-alt"></i></a>
+                            <a href="https://github.com/LuisHerrera98"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/luis-herrera-70aba5198/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    
+                    </div>
+                    <div class="caja mailOcultar" style="background-color: #191919;display: none; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                        
+                        <div class="contactos-icons" style="display:flex;justify-content:center;position:relative;height: auto; width: 100%; border-radius: 10px; margin-top: 0;  height: 60px; align-items: center;">
+                        <p style="color:#f5f5f5;font-family: monospace; font-size: 16px;">luchoherrerafernandez@gmail.com</p>
+                        </div>
+                    
+                    </div>
+                    <div class="caja" style=" background-color: #191919;display: flex; width: 95%; border-radius: 10px; height: auto; margin-top: 0; margin-left: 2.5%; margin-bottom: 20px;">
+                        
+                        <div style="position:relative;height: auto; width: 100%; border-radius: 10px; margin-top: 0;">
+                            <p class="p-info" style=" margin: 0; border-radius: 10px; text-align: left;
+                            margin-left: 10px;">
+                                Si llegaste hasta acá, te comento que me encuentro en busqueda de trabajar en alguna empresa , como junior o como pasante en prueba. Tengo ganas de aprender y ganar experiencia. Contactame!
+                            </p>
+                        </div>
+                    
+                    </div>
+                    
+                
+                <br>
+            </div>
+            
+            
+            
     </main>
         
         
@@ -138,7 +395,7 @@
     </div>
     </article>
     
-       
+    
     
 
     
@@ -148,5 +405,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/headroom.min.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/efectoImagenes.js"></script>
 </body>
 </html>
